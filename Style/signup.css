@@ -1,0 +1,67 @@
+.container1 img{
+    width: 27px;
+    height: 27px;
+}
+.container1 p{
+    font-weight: 700;
+    font-size: 23px;
+}
+.container1{
+    width: fit-content;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.container1 .formDiv{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    align-self: center;
+}
+.container1 .formDiv form div{
+    text-align: left;
+    padding: 5px 15px;
+    width: 540px;
+    border-color: rgb(196, 207, 214);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+.container1 .formDiv form input{
+    height: 25px;
+    width: 500px;
+    border-style: none;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+#name{
+    height: 25px;
+    width: 500px;
+    background-color: rgba(29, 160, 242, 0.103);
+}
+
+.container1 .formDiv form label {
+    display: inline-block;
+    margin-bottom: 0rem;
+    font-size: 14px;
+    color: rgb(126, 130, 133);
+}
+.container1 .formDiv p {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+.container1 .formDiv button{
+    width: 100%;
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-weight: 500;
+    height: 50px;
+    margin-bottom: 40px;
+}

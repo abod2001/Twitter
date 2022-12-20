@@ -1,0 +1,209 @@
+/*-------------------------- common style --------------------*/
+ul {
+    list-style: none;
+}
+img{
+    width: 27px;
+    height: 27px;
+}
+a{
+    display: inline;
+}
+li a, li #tweetBtn{
+    color: black;
+    text-decoration: none;
+}
+li:hover a, li:hover #tweetBtn{
+    text-decoration: none;
+    color: rgba(29,161,242,1.00);
+}
+li:active a, li:active #tweetBtn{
+    color: rgba(29,161,242,1.00);
+}
+
+/*------------------------- container ------------------------*/
+.container1{
+    display: flex;
+}
+/*------------------------- left -----------------------------*/
+.left ul li{
+    width: 180px;
+    height: 45px;
+}
+ul li h5{
+    font-weight: 650;
+    display: inline;
+}
+i{
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 15px;
+    margin-top: 12px;
+    margin-right: 13px;
+}
+#tweetBtn{
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: rgba(29,161,242,1.00);
+    color: white;
+    text-align: center;
+}
+#tweetBtn a{
+    color: white;
+}
+#tweetBtn h5{
+    display: inline-block;
+    margin-top: 8px;
+}
+ul #usernameId{
+    margin-top: 30px;
+    height: 50px;
+    width: 240px;
+    display: inline-flex;
+}
+#usernameId a{
+    display: flex;
+}
+#usernameId img{
+    margin: 12px;
+}
+#nameofUser{
+    font-size: 15px;
+    font-weight: 500;
+}
+#username{
+    color: rgb(91, 112, 131);
+    font-size: 16px;
+    font-weight: 450;
+}
+#info span{
+    display: inline-flex;
+    flex-direction: column;
+}
+ul{
+    padding: 30px 50px;
+    text-align: left;
+}
+ul li:hover{
+    color: rgba(29,161,242,1.00);
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgba(29, 160, 242, 0.11);
+    text-decoration: none;
+}
+ul li h5:hover{
+    text-decoration: none;
+}
+.left{
+    border-right: solid;
+    border-width: 0.5px;
+    width: 22%;
+    position: fixed;;
+    height: 100%;
+    margin-top: 0px;
+}
+#imgli img{
+    margin-top: 12px;
+}
+#imgli{
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+#imgli:hover{
+    border-radius: 50%;
+    border-style: none;
+    background-color: rgba(29, 160, 242, 0.11);
+}
+
+/*----------------------- Center -------------------------*/
+.topBar{
+    background-color: white;
+    z-index: 1;
+    font-weight: 900;
+    font-size: 18px;
+    position: fixed;
+    border-style: solid;
+    border-width: 0.5px;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 50%;
+    padding-left: 15px;
+}
+.center{
+    position: relative;
+    margin-left: 22%;
+}
+.center form{
+    padding-top: 60px;
+    border-style: none;
+    width: 680px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+.center form textarea {
+    resize: none;
+    width: 100%;
+    border-style: none;
+}
+textarea:focus{
+    border-style: none;
+    outline: none;
+}
+.center button{
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    margin-left: 570px;
+    background-color: rgba(29,161,242,1.00);
+}
+.newsfeed{
+    width: 600px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+hr{
+    width: 650px;
+    margin-right: 80px;
+    margin-left: 0;
+}
+#tweetdiv p{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+#nameofUser{
+    margin-left: 5px;
+}
+#ell{
+    position: absolute;
+    right: 0;
+}
+.tweetBottom{
+    margin-left: 10px;
+    width: 600px;
+}
+.tweetBottom span i{
+    color:rgb(91, 112, 131);
+    padding: 8px;
+    margin-right: 80px;
+    align-self: center;
+}
+.tweetBottom span i:hover{
+    cursor: pointer;
+    background-color: rgba(29, 160, 242, 0.26);
+    border-radius: 50%;
+}
+
+#like:hover{
+    color: rgb(224, 36, 94);
+    background-color: rgba(224, 36, 96, 0.26);
+}
+#retweet:hover{
+    color: rgb(23, 191, 99);
+    background-color: rgba(23, 191, 99, 0.26);
+}
